@@ -1,6 +1,6 @@
 ---
 name: worth-try
-description: Evaluate whether a company or job offer is worth taking, compare competing offers, and surface role, team, compensation, company-health, culture, and personal-fit tradeoffs. Use when Codex is asked to decide "should I join this company?", "which offer should I choose?", "is this offer worth it?", "what red flags should I check?", or to assess accept/reject, negotiation, career-growth, risk, workload, manager, public-company financials, earnings reports, startup funding rounds, runway, investors, or company-fit questions for an employment opportunity.
+description: Evaluate whether a company or job offer is worth taking, compare competing offers, and surface role, team, compensation, company-health, culture, and personal-fit tradeoffs. Use when Codex is asked to decide "should I join this company?", "which offer should I choose?", "is this offer worth it?", "what red flags should I check?", or to assess accept/reject, negotiation, career-growth, risk, workload, manager, public-company financials, earnings reports, startup funding rounds, runway, investors, internship offers, full-time offers, new-grad offers, return offers, or company-fit questions for an employment opportunity.
 ---
 
 # Worth Try
@@ -18,9 +18,10 @@ This skill is not legal, financial, immigration, tax, or mental-health advice. T
    - Multiple offers: compare options using the same rubric and highlight decisive deltas.
    - Company-only check: assess whether the company seems worth pursuing, with lower confidence if offer/team details are missing.
    - Company stage: identify whether the company is public, private late-stage, early startup, subsidiary, agency/consultancy, or unknown; use stage-specific research signals.
+   - Offer type: identify whether the opportunity is internship, return offer, new-grad full-time, experienced full-time, contract, or ambiguous; use offer-type-specific scoring.
 
 2. Gather only decision-critical missing context.
-   - Ask concise follow-up questions when the company, role, location, seniority, compensation, timing, visa/relocation constraints, or competing options are missing.
+   - Ask concise follow-up questions when the company, role, location, seniority, compensation, offer type, timing, internship duration, return-offer path, visa/relocation constraints, or competing options are missing.
    - If enough context exists to proceed, continue with explicit assumptions instead of blocking.
    - Do not put private personal details, compensation documents, names of non-public interviewers, or sensitive constraints into web searches.
 
@@ -47,6 +48,7 @@ Default to Chinese first with concise English labels in headings or table column
 
 - **结论 / Recommendation**: accept, reject, negotiate, pursue, pause, or choose offer A/B, with confidence.
 - **公司阶段与资金面 / Stage and Financial Snapshot**: public-company financials or startup funding/runway signals when relevant.
+- **Offer 类型 / Internship vs Full-Time Lens**: distinguish internship, return offer, new-grad, and full-time decision logic.
 - **评分表 / Scorecard**: weighted dimensions, scores, evidence, unknowns, and risk notes.
 - **红黄绿灯 / Risk Lights**: green strengths, yellow uncertainties, red flags.
 - **关键取舍 / Decisive Tradeoffs**: what matters most for this user.

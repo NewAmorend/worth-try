@@ -60,6 +60,22 @@ Startups and private companies:
 - For equity-heavy offers, ask for share class, number of shares, strike price, latest 409A or fair market value, preferred valuation, liquidation preference if knowable, exercise window, refresh policy, and liquidity path.
 - Treat unverifiable valuation, ARR, and runway claims as claims to verify with the company, not facts.
 
+## Offer-Type Research
+
+Internships:
+
+- Check whether the company has a structured intern program, mentorship model, intern project examples, return-offer process, and conversion rate if public or available from credible employee reports.
+- Ask whether the intern will work on production, research, internal tooling, shadowing, or a disposable project; prefer scoped work with a clear owner and demo/readout.
+- Verify internship dates, location, remote policy, housing, relocation stipend, hourly/monthly pay, overtime expectations, CPT/OPT or local work authorization support, and whether school calendar conflicts exist.
+- Treat employee reviews and intern reviews as directional; look for repeated patterns around mentorship, project quality, and conversion rather than isolated anecdotes.
+
+Full-time offers:
+
+- Check role centrality, manager and org stability, promotion path, team attrition, reorg history, business unit priority, and long-term compensation mechanics.
+- Verify written terms for base, bonus, equity, vesting, refreshers, benefits, severance, non-compete or clawback terms, relocation repayment, visa support, remote/office policy, and start-date pressure.
+- For startups, connect funding/runway to full-time risk: a short runway, bridge round, down round, or unclear next financing can matter much more for full-time than for a short internship.
+- For public companies, connect financials to headcount risk: slowing growth, margin pressure, restructuring, or guidance cuts can affect full-time team stability and promotion velocity.
+
 ## Currentness Checks
 
 - Use exact dates for news, filings, funding, layoffs, leadership changes, or financial results.

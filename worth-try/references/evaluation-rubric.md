@@ -54,6 +54,36 @@ Do not let a high average score hide severe unresolved risk. Cap the recommendat
 - Visa, relocation, or employment-status dependency with weak written support.
 - Role appears non-core, underfunded, or likely to be eliminated soon.
 
+## Offer-Type Adjustments
+
+Always identify the offer type before scoring. The same company can be a great internship and a weak full-time choice, or the reverse.
+
+Internship default emphasis:
+
+| Dimension | Suggested Weight | Internship Lens |
+| --- | ---: | --- |
+| Role, project, and mentor | 25 | Mentor quality, project ownership, code or work that can be explained later, team support, intern program maturity. |
+| Career signal and learning | 25 | Resume brand, learning density, network, future recruiting signal, skill portability. |
+| Return-offer and conversion option | 15 | Historical conversion rate, headcount plan, evaluation criteria, return-offer timeline, ability to rejoin desired team. |
+| Company health and stage | 15 | Enough stability to complete the internship and make conversion credible; for startups, funding freshness and hiring plan matter. |
+| Compensation and logistics | 10 | Hourly/monthly pay, housing, relocation, commute, remote policy, start/end dates, school calendar fit. |
+| Culture and personal constraints | 10 | Workload, psychological safety, visa/CPT/OPT constraints, academic obligations, location, health. |
+
+Full-time default emphasis:
+
+| Dimension | Suggested Weight | Full-Time Lens |
+| --- | ---: | --- |
+| Company and business health | 20 | Long-term employment risk, layoffs, financials or runway, strategic durability. |
+| Role, team, and manager | 25 | Manager quality, scope, decision rights, team stability, role centrality, promotion path. |
+| Career growth | 20 | Learning curve, resume signal, promotion velocity, marketable skills, future options. |
+| Compensation and risk-adjusted value | 20 | Base, bonus, equity, benefits, severance, liquidity, tax/currency, downside protection. |
+| Culture, workload, and values | 10 | Sustainable pace, ethics, operating style, autonomy, psychological safety. |
+| Personal constraints | 5 | Location, family, health, visa/immigration, commute, timing. |
+
+Return offers and new-grad offers sit between internship and full-time. Weigh conversion certainty, team choice, new-grad training, first-manager quality, location/visa constraints, and whether accepting now meaningfully blocks better recruiting options.
+
+Do not compare internship and full-time offers on raw salary alone. Internships are option-value decisions; full-time offers are commitment and downside-risk decisions.
+
 ## Strategy Overrides
 
 If the user states a strategy, adjust weights explicitly:
