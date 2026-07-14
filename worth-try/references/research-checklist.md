@@ -22,6 +22,13 @@ Use focused searches such as:
 - `<company> 2026 layoffs hiring freeze`
 - `<company> annual report 10-K 10-Q investor presentation`
 - `<company> earnings call margin revenue guidance`
+- `<company> quarterly results earnings transcript guidance`
+- `<company> SEC 10-K 10-Q annual report investor relations`
+- `<company> Series A Series B Series C funding lead investor`
+- `<company> Crunchbase funding round investors`
+- `<company> PitchBook funding valuation`
+- `<company> runway burn rate layoffs hiring freeze`
+- `<company> down round bridge round extension round`
 - `<company> security incident data breach`
 - `<company> lawsuit regulator investigation`
 - `<company> Glassdoor reviews manager workload culture`
@@ -32,6 +39,26 @@ Use focused searches such as:
 For startups, add searches for runway, last funding round, lead investors, founder history, board changes, customer concentration, and hiring velocity.
 
 For public companies, inspect recent filings, earnings-call tone, segment growth, margin trend, guidance changes, stock movement only as context, and management commentary.
+
+## Stage-Specific Research
+
+First classify the company stage. Use the user's context plus public sources to identify whether it is public, private late-stage, early startup, subsidiary, agency/consultancy, or ambiguous.
+
+Public companies:
+
+- Check investor relations pages, annual reports, quarterly reports, 10-K/10-Q filings, earnings releases, investor presentations, and earnings-call transcripts.
+- Extract the latest report period and date, revenue growth, gross margin, operating margin, net income or loss, free cash flow, cash, debt, guidance, segment performance, and management commentary.
+- Look for recent layoffs, restructuring, impairment charges, customer concentration, regulatory issues, litigation, security incidents, or strategic pivots.
+- Treat stock price, analyst ratings, and market sentiment as context, not as the main evidence.
+
+Startups and private companies:
+
+- Identify latest financing round, round date, amount, lead investors, notable participants, valuation if available, and whether the round is priced, SAFE/convertible, bridge, extension, debt, or down round.
+- Use Crunchbase, PitchBook, Dealroom, Tracxn, company announcements, investor posts, reputable news, founder interviews, and regional sources such as IT Juzi, 36Kr, Qichacha, or Tianyancha when relevant.
+- Estimate funding freshness and runway carefully: recent large rounds and credible investors help, but burn rate is often unknown. State assumptions and confidence.
+- Check hiring velocity, LinkedIn headcount trend, open roles, layoffs, office closures, leadership churn, founder history, customer traction, product usage, enterprise customer references, and market timing.
+- For equity-heavy offers, ask for share class, number of shares, strike price, latest 409A or fair market value, preferred valuation, liquidation preference if knowable, exercise window, refresh policy, and liquidity path.
+- Treat unverifiable valuation, ARR, and runway claims as claims to verify with the company, not facts.
 
 ## Currentness Checks
 

@@ -6,7 +6,7 @@ Use this rubric to make offer and company tradeoffs explicit. Adjust weights onl
 
 | Dimension | Weight | What to Evaluate |
 | --- | ---: | --- |
-| Company and business health | 20 | Market, growth, funding or profitability, customer quality, competitive position, leadership credibility, layoffs, runway, public-market signals when relevant. |
+| Company and business health | 20 | Market, growth, funding or profitability, customer quality, competitive position, leadership credibility, layoffs, runway, public-company financials, startup financing quality, and stage-specific business signals. |
 | Role, team, and manager | 20 | Scope, ownership, reporting line, manager quality, team stability, decision rights, technical or functional bar, whether the role is core to the business. |
 | Career growth | 20 | Learning density, promotion path, resume signal, network, future options, strategic skill accumulation, proximity to important problems. |
 | Compensation and risk-adjusted value | 15 | Base, bonus, equity, vesting, liquidity, benefits, severance, relocation, tax or currency effects, probability-adjusted upside. |
@@ -65,3 +65,11 @@ If the user states a strategy, adjust weights explicitly:
 - Founder or early-startup risk appetite: raise market upside, equity quality, founder quality, role leverage, and downside runway.
 
 Always show the weights used.
+
+## Stage-Specific Company Health Signals
+
+For public companies, evaluate recent financial reports and market disclosures: revenue growth, margins, operating income or losses, free cash flow, cash and debt, guidance changes, segment performance, customer concentration, layoffs, buybacks or dilution, and management commentary. Do not use stock price alone as a proxy for company quality.
+
+For startups, evaluate financing and survival odds: latest round, round type, amount, date, lead investors, valuation if available, down round or bridge signals, estimated runway, burn proxies, hiring velocity, headcount trend, customer traction, founder track record, investor quality, and whether the offered role is funded by a durable company priority.
+
+For subsidiaries or business units, evaluate both parent-company health and unit-level priority. A strong parent does not guarantee role safety if the unit is non-core, recently reorganized, or under strategic review.
