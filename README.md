@@ -56,10 +56,18 @@ Use $worth-try to check whether this startup is worth joining. Please pay attent
 ## 目录结构
 
 ```text
-worth-try/
+.agents/plugins/marketplace.json      # repo marketplace catalog
+plugins/worth-try/                    # installable skill-only plugin
+├── .codex-plugin/plugin.json
+└── skills/worth-try/
+    ├── SKILL.md
+    ├── agents/openai.yaml
+    └── references/
+        ├── evaluation-rubric.md
+        └── research-checklist.md
+worth-try/                            # direct local skill copy
 ├── SKILL.md
-├── agents/
-│   └── openai.yaml
+├── agents/openai.yaml
 └── references/
     ├── evaluation-rubric.md
     └── research-checklist.md
@@ -67,18 +75,26 @@ worth-try/
 
 ## 安装
 
-这个仓库把 skill 文件夹放在 `worth-try/` 下。
+### 作为 Codex Plugin Marketplace 安装
 
-要让 Codex 自动发现这个 skill，把 `worth-try/` skill 文件夹放到 Codex skills 目录下，通常是：
+这个仓库包含 repo-scoped marketplace：`.agents/plugins/marketplace.json`。添加 marketplace 后，Codex/ChatGPT desktop app 可以从插件目录安装 `Worth Try`：
 
-```text
-~/.codex/skills/worth-try
+```bash
+codex plugin marketplace add NewAmorend/worth-try
 ```
 
-之后用下面的方式调用：
+之后刷新或重启 ChatGPT desktop app，在插件目录里选择 `Worth Try` marketplace 并安装 `Worth Try`。安装后可以用：
 
 ```text
 $worth-try
+```
+
+### 作为本地 Skill 安装
+
+这个仓库也保留了直接的 skill 文件夹 `worth-try/`。如果只想本地使用 skill，可以把它放到 Codex skills 目录下，通常是：
+
+```text
+~/.codex/skills/worth-try
 ```
 
 ## 注意

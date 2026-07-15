@@ -1,0 +1,36 @@
+{
+  "name": "worth-try",
+  "version": "0.1.0",
+  "description": "Evaluate whether a company or job offer is worth taking, and compare offers with structured company research.",
+  "author": {
+    "name": "Amorend",
+    "url": "https://github.com/NewAmorend"
+  },
+  "homepage": "https://github.com/NewAmorend/worth-try",
+  "repository": "https://github.com/NewAmorend/worth-try",
+  "keywords": [
+    "career",
+    "offers",
+    "company-research",
+    "internships",
+    "startups"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Worth Try",
+    "shortDescription": "Evaluate offers and company fit",
+    "longDescription": "Assess whether a company or offer is worth taking with a structured scorecard, public-company financial checks, startup funding research, internship versus full-time logic, red flags, negotiation levers, and follow-up questions.",
+    "developerName": "Amorend",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://github.com/NewAmorend/worth-try",
+    "defaultPrompt": [
+      "Use Worth Try to evaluate this job offer.",
+      "Use Worth Try to compare these internship offers.",
+      "Use Worth Try to assess whether this startup is worth joining."
+    ],
+    "brandColor": "#10A37F"
+  }
+}

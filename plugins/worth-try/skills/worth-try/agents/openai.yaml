@@ -1,0 +1,4 @@
+interface:
+  display_name: "Worth Try"
+  short_description: "Assess company fit, risk, and offer tradeoffs"
+  default_prompt: "Use $worth-try to compare offers and decide whether a company is worth joining."
